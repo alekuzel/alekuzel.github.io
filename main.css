@@ -1,0 +1,51 @@
+header{
+    background-color: rgb(125, 159, 183);
+    color: white;
+}
+
+h1{
+  
+    margin-left: 2vh
+}
+ nav{
+    margin-left: 65vw;
+    margin-top: -4vh;
+ }
+
+ a{
+    text-decoration: overline;
+    color: white;
+    margin-left: 2vw;
+    font-size: 3vh;
+ }
+
+ .button button-outline{
+    color: white;
+ }
+
+ .button-white {
+    background-color:transparent;
+    border-color: white;
+  }
+
+  h2{
+    margin-top: 3vh;
+  }
+
+  footer{
+    background-color: rgb(125, 159, 183);
+    color: white;
+    padding-bottom: 2vh;
+    padding-left: 10vw;
+}
+
+.container{
+    width: 50vw;
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 88vw;
+        margin-left: 5vw;
+    }
+}
