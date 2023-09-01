@@ -43,6 +43,12 @@ h1{
     width: 50vw;
 }
 
+#link{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 0vw;
+}
+
 @media (max-width: 500px) {
     .container{
         width: 88vw;

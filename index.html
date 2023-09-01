@@ -9,20 +9,15 @@
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Moment 1 </title>
-  <span class="pln"><!-- Google Fonts -->
-  </span><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"><span class="pln">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   
-  <!-- CSS Reset -->
-  </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><span class="pln">
-  
-  <!-- Milligram CSS -->
-  </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 </head>
 <body>
-<header> <h1>Moment 1</h1> 
-  <nav>
-  <a class="button button-outline" href="miligram.html">MILLIGRAM</a>
-  <a class="button button-outline" href="bootstrap.html">BOOTSTRAP</a></nav>
+<header> 
+  <nav class="navbar navbar-dark bg-dark"><h1 class="text-warning" style="margin-left: 2vw;">Moment 1</h1> 
+  <a style="color:white;" class="button button-outline" href="miligram.html">MILLIGRAM</a>
+  <a style="color:white;" class="button button-outline"  href="materialize.html">MATERIALIZE</a>
+  <a style="color:white;" class="button button-outline" href="bootstrap.html">BOOTSTRAP</a></nav>
 </header>
 
 <div class="card">
@@ -30,67 +25,7 @@
   <p>Här kommer att finnas en fin text om Bootstrap. För- och nackdelar.</p>
   <p>En fin och detaljerad text ska det vara. Medan jag förbereder texten, är det bara en placeholder text som ni läser nu och här.</p></div>
  
-<h2>Husdjur</h2>
-<table id="table">
-  <theader>
-  <tr>
-    <th style="width:7%; text-align: left">Namn</th>
-    <th style="width:5%; text-align: left">Kategori</th>
-    <th style="width:10%; text-align: left">Ras</th>
-    <th style="width:10%; text-align: left">Färg/Färger</th>
-    <th style="width:15%; text-align: left">Övrigt</th>
-  </tr>
-</theader>
-  <tbody id="courseTable">
-  <tr>
-    <td>George</td>
-    <td>Fisk</td>
-    <td>Guldfisk</td>
-    <td>Guld</td>
-    <td>Glad, pigg, alltid hungrig.</td>
-    
-  </tr>
-</tbody>
-</table>
 
-
-<h3>Tillägg djur</h3>
-        <form>
-            <label for="name">Namn:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="category">Kategori:</label><br>
-            <select name="category" id="category">
-              <option value="cat">Katt</option>
-              <option value="dog">Hund</option>
-              <option value="fish">Fisk</option>
-              <option value="horse">Häst</option>
-            </select>
-            <p>
-              Välj färg eller flera färger:
-            </p>
-            <input type="checkbox" id="white" name="white" value="Vit">
-            <label for="white">Vit</label><br>
-            <input type="checkbox" id="black" name="black" value="Svart">
-            <label for="black">Svart</label><br>
-            <input type="checkbox" id="brown" name="brown" value="Brun">
-            <label for="brown">Brun</label><br>
-            <input type="checkbox" id="grey" name="grey" value="Grå">
-            <label for="grey">Grå</label><br>
-            <input type="checkbox" id="red" name="red" value="Röd">
-            <label for="red">Röd</label><br>
-            <input type="checkbox" id="blue" name="blue" value="Blå">
-            <label for="blue">Blå</label><br>
-            <input type="checkbox" id="yellow" name="yellow" value="Gul">
-            <label for="yellow">Gul</label><br>
-
-
-
-            <label for="syllabus">Syllabus:</label><br>
-            <input placeholder="Describe yourself here..." type="text" id="syllabus" name="syllabus"  required><br><br>
-            <input type="submit" value="Add course" id="submit">
-          </form>
-          
-          <span id="courseInfo"></span>
 </section>
 
 
@@ -107,10 +42,10 @@
 
 
 
-<footer>
+<footer class="navbar navbar-dark bg-secondary">
 
-<p>Aleksandra Kuzeleva. 2023</p>
-</footer>
+  <p>Aleksandra Kuzeleva. 2023</p>
+  </footer>
 
 </body>
 </html>
