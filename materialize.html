@@ -1,4 +1,4 @@
-
+<!--Aleksandra Kuzeleva 2023-->
 
 <!DOCTYPE html>
 
@@ -12,7 +12,6 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<script src="main.js"></script>
 </head>
 <body>
 <header > <h1 style="font-size: 5vh; margin-top: 1vh; margin-bottom: 1vh; color: rgb(255, 80, 98)">Moment 1. Materialize</h1> 
@@ -25,9 +24,9 @@
     <section class="container">
 
         <div class="card">
-            <h2>Milligram</h2>
-            <p><a id="link" href="https://milligram.io/">Materialize</a> är en minimalistisk, som namnet antyder. Den har en vikt på 2KB och det räcker med att inkludera flera länkar till huvudet på HTML-koden för att få en snygg webbsida som också är rimligt responsiv.</p>
-            <p>Den största nackdelen med Milligram är att det har mycket begränsad funktionalitet som gör det möjligt att göra enklare webbplatser. Som det står på ramverkets webbplats, "ger den en minimal uppsättning av stilar för en snabb och ren utgångspunkt". Från denna utgångspunkt är det enkelt att ändra webbdesign genom att använda egen CSS-fil, som jag gjorde i denna uppgift: main.css-filen läggs till sist i rubriken och den modifierar några av Milligram-stilarna, som t.ex. färgen på sidhuvudets och sidfotens bakgrund och utseendet på länkarna.</p></div>
+            <h2>Materialize</h2>
+            <p><a href="https://materializecss.com/">Materialize</a> är min favorit för tillfället (men jag är på väg att också testa Tailwind, så det här kan ändras). Standarddesignen är vacker och lyhörd, så väldigt lite justering behövdes för att skapa denna sida. Materialize har mycket detaljerad och välstrukturerad dokumentation.</p>
+          <p>Materialize stöds av alla de mest populära webbläsarna, men den har begränsat stöd av vissa äldre versioner av webbläsarna.</p></div>
 <h2>Husdjur</h2>
 <table>
   <theader>
@@ -104,7 +103,8 @@
               Välj färg eller flera färger:
             </p>
           
-            
+            <!--This particular structure of the label-element is required by Materialized in order 
+            for the label and the checkbox to be displayed correctly-->
                 <label>
                   <input type="checkbox" id="white" name="white" value="Vit"/>
                   <span>Vit</span>
